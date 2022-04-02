@@ -38,6 +38,7 @@
 		<Item Name="Cookie Attributes.ctl" Type="VI" URL="../Cookie Attributes.ctl"/>
 		<Item Name="Cookie Prefix.ctl" Type="VI" URL="../Cookie Prefix.ctl"/>
 		<Item Name="Cookie SameSite.ctl" Type="VI" URL="../Cookie SameSite.ctl"/>
+		<Item Name="Form Type.ctl" Type="VI" URL="../Form Type.ctl"/>
 		<Item Name="Method.ctl" Type="VI" URL="../Method.ctl"/>
 		<Item Name="Response Status.ctl" Type="VI" URL="../Response Status.ctl"/>
 		<Item Name="Start.ctl" Type="VI" URL="../Start.ctl"/>
@@ -47,12 +48,16 @@
 		<Item Name="Data Types" Type="Folder">
 			<Item Name="Cookie Map.ctl" Type="VI" URL="../Cookie Map.ctl"/>
 		</Item>
+		<Item Name="Multipart Parser.lvclass" Type="LVClass" URL="../Multipart Parser/Multipart Parser.lvclass"/>
+		<Item Name="TCPStream.lvclass" Type="LVClass" URL="../TCPStream/TCPStream.lvclass"/>
+		<Item Name="Upload Path.vi" Type="VI" URL="../Upload Path.vi"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
 		<Item Name="From HTTP Date String.vi" Type="VI" URL="../From HTTP Date String.vi"/>
 		<Item Name="To HTTP Date String.vi" Type="VI" URL="../To HTTP Date String.vi"/>
 	</Item>
 	<Item Name="Cookie.lvclass" Type="LVClass" URL="../Cookie/Cookie.lvclass"/>
+	<Item Name="FormField.lvclass" Type="LVClass" URL="../FormField/FormField.lvclass"/>
 	<Item Name="Request.lvclass" Type="LVClass" URL="../Request/Request.lvclass"/>
 	<Item Name="Response.lvclass" Type="LVClass" URL="../Response/Response.lvclass"/>
 </Library>
