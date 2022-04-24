@@ -35,6 +35,7 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Data Types" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Content-Type DB Action.ctl" Type="VI" URL="../Content-Type DB Action.ctl"/>
 		<Item Name="Cookie Attributes.ctl" Type="VI" URL="../Cookie Attributes.ctl"/>
 		<Item Name="Cookie Prefix.ctl" Type="VI" URL="../Cookie Prefix.ctl"/>
 		<Item Name="Cookie SameSite.ctl" Type="VI" URL="../Cookie SameSite.ctl"/>
@@ -48,16 +49,25 @@
 		<Item Name="Data Types" Type="Folder">
 			<Item Name="Cookie Map.ctl" Type="VI" URL="../Cookie Map.ctl"/>
 		</Item>
+		<Item Name="Convert Apache mime.types to Map.vi" Type="VI" URL="../Convert Apache mime.types to Map.vi"/>
+		<Item Name="mime.types" Type="Document" URL="../mime.types"/>
 		<Item Name="Multipart Parser.lvclass" Type="LVClass" URL="../Multipart Parser/Multipart Parser.lvclass"/>
 		<Item Name="TCPStream.lvclass" Type="LVClass" URL="../TCPStream/TCPStream.lvclass"/>
 		<Item Name="Upload Path.vi" Type="VI" URL="../Upload Path.vi"/>
 	</Item>
+	<Item Name="Responses" Type="Folder">
+		<Item Name="File Response.lvclass" Type="LVClass" URL="../File Response/File Response.lvclass"/>
+		<Item Name="Redirect Response.lvclass" Type="LVClass" URL="../Redirect Response/Redirect Response.lvclass"/>
+	</Item>
 	<Item Name="Utilities" Type="Folder">
+		<Item Name="Content-Type Map.vi" Type="VI" URL="../Content-Type Map.vi"/>
 		<Item Name="From HTTP Date String.vi" Type="VI" URL="../From HTTP Date String.vi"/>
+		<Item Name="Header String.vim" Type="VI" URL="../Header String.vim"/>
 		<Item Name="To HTTP Date String.vi" Type="VI" URL="../To HTTP Date String.vi"/>
 	</Item>
 	<Item Name="Cookie.lvclass" Type="LVClass" URL="../Cookie/Cookie.lvclass"/>
 	<Item Name="FormField.lvclass" Type="LVClass" URL="../FormField/FormField.lvclass"/>
 	<Item Name="Request.lvclass" Type="LVClass" URL="../Request/Request.lvclass"/>
 	<Item Name="Response.lvclass" Type="LVClass" URL="../Response/Response.lvclass"/>
+	<Item Name="Streamable Response.lvclass" Type="LVClass" URL="../Streamable Response/Streamable Response.lvclass"/>
 </Library>
