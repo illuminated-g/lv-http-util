@@ -35,6 +35,8 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Data Types" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Cache Directive.ctl" Type="VI" URL="../Cache Directive.ctl"/>
+		<Item Name="Cache Params.ctl" Type="VI" URL="../Cache Params.ctl"/>
 		<Item Name="Content-Type DB Action.ctl" Type="VI" URL="../Content-Type DB Action.ctl"/>
 		<Item Name="Cookie Attributes.ctl" Type="VI" URL="../Cookie Attributes.ctl"/>
 		<Item Name="Cookie Prefix.ctl" Type="VI" URL="../Cookie Prefix.ctl"/>
@@ -60,6 +62,7 @@
 		<Item Name="Redirect Response.lvclass" Type="LVClass" URL="../Redirect Response/Redirect Response.lvclass"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
+		<Item Name="Cache Directive String.vi" Type="VI" URL="../Cache Directive String.vi"/>
 		<Item Name="Content-Type Map.vi" Type="VI" URL="../Content-Type Map.vi"/>
 		<Item Name="From HTTP Date String.vi" Type="VI" URL="../From HTTP Date String.vi"/>
 		<Item Name="Header String.vim" Type="VI" URL="../Header String.vim"/>
