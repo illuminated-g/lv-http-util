@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-01-09 01:00:29" Modified_Date="2022-04-27 00:58:59" Creator="Localization Tester" Comments="" ID="b27934dd1968ec6696d2eae544c51969">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-01-09 01:00:29" Modified_Date="2022-04-28 23:32:44" Creator="Localization Tester" Comments="" ID="b62e96f33a3b7908a6c6e64ddecc042b">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_HTTP_Utils</Package_File_Name>
-    <Library_Version>1.0.0.35</Library_Version>
+    <Library_Version>1.0.0.37</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\build\vip</Library_Output_Folder>
@@ -268,7 +268,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>Cookie</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>71744DAFCB16424DBF618986BA07D058</GUID>
+      <GUID>533825806E8E91BBD8A9469E26975E53</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -457,7 +457,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Request\Read From TCP.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>820C039AA676FF410AA0B8179613F8AA</GUID>
+      <GUID>4B1C5C2489BA11984ADD6E42F09EB9CB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -646,7 +646,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Response\Set Header.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E9C61B7E6AAA0D3F335A1E8A59249BE6</GUID>
+      <GUID>4A7C2BB54313795A3DE317941C00FAF9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -681,7 +681,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Request\Accept-Encodings.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>064872412886F98C59B53E97686FEF38</GUID>
+      <GUID>149B06655EEC24D6517CC3E997A9757F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -786,7 +786,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Cookie\Get Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D328F655BBC95C15CBEEC8BA4825E1E8</GUID>
+      <GUID>C76AE5C14B0B4E87518B4670B8FCF5E5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
