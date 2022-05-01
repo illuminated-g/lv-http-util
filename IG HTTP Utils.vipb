@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-01-09 01:00:29" Modified_Date="2022-04-30 13:37:17" Creator="Localization Tester" Comments="" ID="d5e1610332b1b5bfbb6f2c9a6a9d0068">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-01-09 01:00:29" Modified_Date="2022-05-01 11:59:06" Creator="Localization Tester" Comments="" ID="840d0c814addcc3b93461070f14ac2b3">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_HTTP_Utils</Package_File_Name>
-    <Library_Version>1.0.0.39</Library_Version>
+    <Library_Version>1.0.0.40</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\build\vip</Library_Output_Folder>
@@ -53,7 +53,8 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
 - Fix status text when creating a basic response
 - Add convenience property for setting just the Path attribute of cookies
 - Created Caching control headers API
-- Add host/port info from Host header field to target URI in requests</Release_Notes>
+- Add host/port info from Host header field to target URI in requests
+- Adjust reentrancy for more parallel request / response streaming</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -269,7 +270,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>Cookie</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>185F88296926467DD7D653779FA62D57</GUID>
+      <GUID>2FCF528E0CD611711AF2672C2B4A725C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -458,7 +459,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Request\Read From TCP.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1A1D3DA4771656F07DA9535CEBB28837</GUID>
+      <GUID>2D091A3E0A51EE10672686A93EF8CCC2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -647,7 +648,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Response\Set Header.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>12E8A1D12EE2F09B542E7C28F7EAFDB7</GUID>
+      <GUID>B5D16661AD5130C48896843219666300</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -682,7 +683,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Request\Accept-Encodings.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EA216F3396BB7A91BFAD651AB02FC5C7</GUID>
+      <GUID>FAAC56514B98B3DAA6DF121EF2D1BB11</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -787,7 +788,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Cookie\Get Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>707098CA577649D0C59D2009CA979F5F</GUID>
+      <GUID>0DF546BB2213ABDB7187A5BD5AD944B8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
