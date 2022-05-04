@@ -54,6 +54,7 @@
 		<Item Name="Convert Apache mime.types to Map.vi" Type="VI" URL="../Convert Apache mime.types to Map.vi"/>
 		<Item Name="mime.types" Type="Document" URL="../mime.types"/>
 		<Item Name="Multipart Parser.lvclass" Type="LVClass" URL="../Multipart Parser/Multipart Parser.lvclass"/>
+		<Item Name="Normalize Scheme Port.vi" Type="VI" URL="../Normalize Scheme Port.vi"/>
 		<Item Name="TCPStream.lvclass" Type="LVClass" URL="../TCPStream/TCPStream.lvclass"/>
 		<Item Name="Upload Path.vi" Type="VI" URL="../Upload Path.vi"/>
 	</Item>
