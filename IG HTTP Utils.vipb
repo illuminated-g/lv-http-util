@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-01-09 01:00:29" Modified_Date="2022-05-04 09:06:49" Creator="Localization Tester" Comments="" ID="aad8a6c4d78ec4e2a4c564143aa6e5b0">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-01-09 01:00:29" Modified_Date="2022-05-31 16:25:27" Creator="Localization Tester" Comments="" ID="8f9eeadd0655a94830b81f6f85a3123b">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_HTTP_Utils</Package_File_Name>
-    <Library_Version>1.0.0.41</Library_Version>
+    <Library_Version>1.0.0.44</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\build\vip</Library_Output_Folder>
@@ -17,8 +17,8 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>illuminatedg_lib_ig_stream_base &gt;= 1.1.0.32</External_Dependencies>
-      <Direct_Dependencies>illuminatedg_lib_ig_stream_base-1.1.0.32</Direct_Dependencies>
+      <External_Dependencies>illuminatedg_lib_ig_stream_base &gt;= 1.1.0.34</External_Dependencies>
+      <Direct_Dependencies>illuminatedg_lib_ig_stream_base-1.1.0.34</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -55,7 +55,8 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
 - Created Caching control headers API
 - Add host/port info from Host header field to target URI in requests
 - Adjust reentrancy for more parallel request / response streaming
-- Redirect Response will remove the port supplied for a redirect URI if the port matches the scheme's default</Release_Notes>
+- Redirect Response will remove the port supplied for a redirect URI if the port matches the scheme's default
+- Response automatically adds Date header if not already present</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -271,7 +272,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>Cookie</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1CE051E30C13A3CACE03D49C73EBDF95</GUID>
+      <GUID>DB3AE565369A535B1F538E172CD518F3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -460,7 +461,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Request\Read From TCP.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C261CD404505F197E64ECB1147264F31</GUID>
+      <GUID>97629C9EA8189BDBC415482231A3B275</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -649,7 +650,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Response\Set Header.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9EF4C583B1E8D955EAF508FD56C787F6</GUID>
+      <GUID>583C608EE42DA1FD76FBB65A73BD27BE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -684,7 +685,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Request\Accept-Encodings.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>24C4CE77B838E7C69480F273D74F7EC6</GUID>
+      <GUID>1ED008E2C5FD642B3C125FB69A4AC9F2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -789,7 +790,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Cookie\Get Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A6FF84E1E5192AD0093D790FADAC88F</GUID>
+      <GUID>A2140F118AF30A934A8F1FA63F65AE8D</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
