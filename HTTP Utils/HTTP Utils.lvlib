@@ -9,7 +9,9 @@
 	<Property Name="Database Path" Type="Str">C:\Program Files (x86)\National Instruments\LabVIEW 2020\data</Property>
 	<Property Name="Enable Alarms Logging" Type="Bool">true</Property>
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
+	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)^!!!*Q(C=\&gt;1R4A*"&amp;-&lt;R$W.B3W&amp;PC$&gt;Y6_!+8/&amp;Z"&amp;J-)+'W?[5*&amp;1?QI&lt;*`6[#DZALL@W&gt;@D"ICD39G-OP!]MX/GZ_TGZ6;OZ'OV:VLN^_W9&lt;TL4\LB_`4Y%(&gt;VWJU9\Y9C\74Y_T+`_T3`3JZ;@RD^/0]5P,ZU;:@WP^PCX#PA^QED^3]C?N+$\H24PX38Z%G?Z%G?Z%E?Z%%?Z%%?Z%(OZ%\OZ%\OZ%ZOZ%:OZ%:OZ%&lt;?$H+2CVTEE*,&amp;EY73IEG"Z')I3DY34_**0)G(HUI]C3@R**\%QS6+0)EH]33?R--U*:\%EXA34_+B6*.E/]DR*"\++`!%HM!4?!)03SLQ")"AM;"Q5!3'AM(A*0!%HM$$K1*0Y!E]A3@Q-+T!%XA#4_!*0%RJOR*.UR`E?#ADR_.Y()`D=4S5FO.R0)\(]4A?FJ0D=4Q/QFH1+1Z"TC4H!O?(YX%]@-HR/"\(YXA=$U0N$HH&lt;G6\4(_2Y$)`B-4S'R`"11I&lt;(]"A?QW.Y+#P$9XA-D_%R0#QFQW.Y$)]"-2:F?2H&amp;D)H'25:A?0BL4YOVOR2.9OW1[O&amp;60:3KBUXV%+E?$N6.6^V-V5V3&lt;&lt;ZK5V7&lt;J&gt;I%V4_H1KMQKE65E`M,&gt;?2T4^`2N`1V@5[@U;@U#8X=4`XB#Y`(I`&lt;\P8;\H&lt;&lt;&lt;L&gt;&lt;LN?&lt;TO7;TG;&lt;4K3;4C=&lt;D]@NLY)\D`95QP*=7H#]0C^(K?D.;0&lt;S]LOYXT]P$USPZYQ_]?-[V0`"OV*5_LM-?P1'TFRZ$!!!!!!</Property>
+	<Property Name="NI.Lib.LocalName" Type="Str">HTTP Utils</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>

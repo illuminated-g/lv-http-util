@@ -11,6 +11,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Palettes" Type="Folder">
+			<Item Name="Cookie Class.ctl" Type="VI" URL="../Palettes/Cookie Class.ctl"/>
+			<Item Name="File Response Class.ctl" Type="VI" URL="../Palettes/File Response Class.ctl"/>
+			<Item Name="FormField Class.ctl" Type="VI" URL="../Palettes/FormField Class.ctl"/>
+			<Item Name="Redirect Response Class.ctl" Type="VI" URL="../Palettes/Redirect Response Class.ctl"/>
+			<Item Name="Request Class.ctl" Type="VI" URL="../Palettes/Request Class.ctl"/>
+			<Item Name="Response Class.ctl" Type="VI" URL="../Palettes/Response Class.ctl"/>
+			<Item Name="Streamable Response Class.ctl" Type="VI" URL="../Palettes/Streamable Response Class.ctl"/>
+		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="Test Multipart Request.vi" Type="VI" URL="../Test/Test Multipart Request.vi"/>
 			<Item Name="Test Multipart String.vi" Type="VI" URL="../Test/Test Multipart String.vi"/>
