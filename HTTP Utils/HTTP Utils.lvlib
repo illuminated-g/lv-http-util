@@ -54,7 +54,6 @@
 			<Item Name="Cookie Map.ctl" Type="VI" URL="../Cookie Map.ctl"/>
 		</Item>
 		<Item Name="Convert Apache mime.types to Map.vi" Type="VI" URL="../Convert Apache mime.types to Map.vi"/>
-		<Item Name="mime.types" Type="Document" URL="../mime.types"/>
 		<Item Name="Multipart Parser.lvclass" Type="LVClass" URL="../Multipart Parser/Multipart Parser.lvclass"/>
 		<Item Name="Normalize Scheme Port.vi" Type="VI" URL="../Normalize Scheme Port.vi"/>
 		<Item Name="TCPStream.lvclass" Type="LVClass" URL="../TCPStream/TCPStream.lvclass"/>
@@ -67,10 +66,12 @@
 	<Item Name="Utilities" Type="Folder">
 		<Item Name="Cache Directive String.vi" Type="VI" URL="../Cache Directive String.vi"/>
 		<Item Name="Content-Type Map.vi" Type="VI" URL="../Content-Type Map.vi"/>
+		<Item Name="Escape HTTP URL.vi" Type="VI" URL="../Escape HTTP URL.vi"/>
 		<Item Name="ETag String.vi" Type="VI" URL="../ETag String.vi"/>
 		<Item Name="From HTTP Date String.vi" Type="VI" URL="../From HTTP Date String.vi"/>
 		<Item Name="Header String.vim" Type="VI" URL="../Header String.vim"/>
 		<Item Name="To HTTP Date String.vi" Type="VI" URL="../To HTTP Date String.vi"/>
+		<Item Name="Unescape HTTP URL.vi" Type="VI" URL="../Unescape HTTP URL.vi"/>
 	</Item>
 	<Item Name="Cookie.lvclass" Type="LVClass" URL="../Cookie/Cookie.lvclass"/>
 	<Item Name="FormField.lvclass" Type="LVClass" URL="../FormField/FormField.lvclass"/>

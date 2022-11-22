@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-01-09 01:00:29" Modified_Date="2022-11-09 22:04:32" Creator="Localization Tester" Comments="" ID="e82aed626712afacc82ea66d98347450">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-01-09 01:00:29" Modified_Date="2022-11-21 18:36:58" Creator="Localization Tester" Comments="" ID="a4db98b85f949f483eeec5321d0ec7c5">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_HTTP_Utils</Package_File_Name>
-    <Library_Version>1.0.0.46</Library_Version>
+    <Library_Version>1.0.1.47</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vip</Library_Output_Folder>
@@ -37,26 +37,9 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-http-util</URL>
-      <Release_Notes>- Refactor to use StringStream for stream-based parsing instead of separate string parsing code
-- Added error handling for unexpected end of input reporting
-- Added ability to read/write directly with LV TCP refs
-- Added test/demos of string and direct TCP request parsing
-- Add missing Response header VI to palette
-- Form submission parsing
-- Store High Resolution Relative Seconds of time first byte is received for performance testing/logging
-- Add accessors for Response data for debugging and logging
-- Moved File Response and Redirect Response in from HTTP Server
-- Added Streamable Response child of Response to reduce memory usage of data from other sources such as files from disk
-- Leverage Streamable Response for File Responses
-- MIME Type database Functional Global added and Apache mime.types import utility
-- Automatic Content-Type (MIME Type) determination for File Responses
-- Fix status text when creating a basic response
-- Add convenience property for setting just the Path attribute of cookies
-- Created Caching control headers API
-- Add host/port info from Host header field to target URI in requests
-- Adjust reentrancy for more parallel request / response streaming
-- Redirect Response will remove the port supplied for a redirect URI if the port matches the scheme's default
-- Response automatically adds Date header if not already present</Release_Notes>
+      <Release_Notes>- Pull HTTP URL escaping/unescaping functionality into library to remove dependency on LV Web Services lvlib which was causing issues on Linux.
+
+- Removed mime.types file from library to eliminate errors listed on other OSes.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -342,7 +325,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>Form Field</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>41A464A973854786DC907BD677E564FC</GUID>
+      <GUID>DE5B67A1BA256739A9AFDA3C0E96C785</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -601,7 +584,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Cookie\Cookies from Header Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DDB6698C9344C200AD68C33E0265D4ED</GUID>
+      <GUID>7F0DF3A8DBDFC6339D19EC40E470B04B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -860,7 +843,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Response\Get Status Text.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B3313463B168D39384CA3AC72B9B51EB</GUID>
+      <GUID>6281AB6308586E94E51251776315D693</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -895,7 +878,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Request\Accept-Encodings.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DCCACE861E83C8B65B44AE85CC3C5FEA</GUID>
+      <GUID>4897D5D336A171D0C36997F45551A5E3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1000,7 +983,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Cookie\Get Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2958B03662F26EE210A4B3DACFC0EC1F</GUID>
+      <GUID>215AE9CF1FA9988651FC1B242061418A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1063,7 +1046,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Content-Type Map.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>65B9D178560AA41BE28A65E994F13F58</GUID>
+      <GUID>06862E1267D5A16BF476FDE2202D2327</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1098,7 +1081,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Request\First Byte Relative Seconds.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1D6710DE54028F0C098DF97C5EEA0EF4</GUID>
+      <GUID>212E8502F5F4C82125C45B381AF935DB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1217,7 +1200,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\FormField\Original Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>02E474809C217C5959A4074093EC15F3</GUID>
+      <GUID>9014B125A2417B36DB3743CF45E10936</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1336,7 +1319,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>Palettes\Cookie Class.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>421B589051267D38BDC2EDDFBE565FC0</GUID>
+      <GUID>BD215640E774B44C928D32EF3BA3A37E</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
