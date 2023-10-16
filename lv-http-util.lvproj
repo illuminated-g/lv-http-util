@@ -32,9 +32,8 @@
 			<Item Name="Stream.lvlib" Type="Library" URL="/&lt;vilib&gt;/IlluminatedG/lv-stream/Stream.lvlib"/>
 		</Item>
 		<Item Name="HTTP Utils.lvlib" Type="Library" URL="../HTTP Utils/HTTP Utils.lvlib"/>
-		<Item Name="mime.types" Type="Document" URL="../HTTP Utils/mime.types"/>
 		<Item Name="OAuth2.lvlib" Type="Library" URL="../OAuth2/OAuth2.lvlib"/>
-		<Item Name="DB-JP Benchmark.vi" Type="VI" URL="../DB-JP Benchmark.vi"/>
+		<Item Name="mime.types" Type="Document" URL="../HTTP Utils/mime.types"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>

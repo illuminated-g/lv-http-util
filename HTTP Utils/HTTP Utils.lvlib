@@ -64,12 +64,15 @@
 		<Item Name="Redirect Response.lvclass" Type="LVClass" URL="../Redirect Response/Redirect Response.lvclass"/>
 	</Item>
 	<Item Name="Utilities" Type="Folder">
+		<Item Name="Header String" Type="Folder">
+			<Item Name="Header String (I64).vi" Type="VI" URL="../Header String (I64).vi"/>
+			<Item Name="Header String (String).vi" Type="VI" URL="../Header String (String).vi"/>
+		</Item>
 		<Item Name="Cache Directive String.vi" Type="VI" URL="../Cache Directive String.vi"/>
 		<Item Name="Content-Type Map.vi" Type="VI" URL="../Content-Type Map.vi"/>
 		<Item Name="Escape HTTP URL.vi" Type="VI" URL="../Escape HTTP URL.vi"/>
 		<Item Name="ETag String.vi" Type="VI" URL="../ETag String.vi"/>
 		<Item Name="From HTTP Date String.vi" Type="VI" URL="../From HTTP Date String.vi"/>
-		<Item Name="Header String.vim" Type="VI" URL="../Header String.vim"/>
 		<Item Name="To HTTP Date String.vi" Type="VI" URL="../To HTTP Date String.vi"/>
 		<Item Name="Unescape HTTP URL.vi" Type="VI" URL="../Unescape HTTP URL.vi"/>
 	</Item>
