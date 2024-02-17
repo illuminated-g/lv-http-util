@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-01-09 01:00:29" Modified_Date="2023-10-15 14:17:49" Creator="Localization Tester" Comments="" ID="e5d4b2293f821059dfa40c031b439b3d">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2022-01-09 01:00:29" Modified_Date="2024-02-17 11:03:36" Creator="Localization Tester" Comments="" ID="26e464aae75ea664276c519281c4f52f">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_HTTP_Utils</Package_File_Name>
-    <Library_Version>1.1.0.55</Library_Version>
+    <Library_Version>1.2.0.56</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vip</Library_Output_Folder>
@@ -37,7 +37,10 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-http-util</URL>
-      <Release_Notes>1.1.0.54
+      <Release_Notes>1.2.0.55
+- Added Reset method to Requests to support Connection: keep-alive handling and reusing connections / TLS handshakes.
+
+1.1.0.54
 - Removed VIMs from library (Header String) replaced with statically typed inlined VIs.</Release_Notes>
     </Description>
     <Destinations>
@@ -324,7 +327,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>Form Field</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DF05D3B39A9E25CA197C933C76FCFBEF</GUID>
+      <GUID>54226CC89BBD32CCA46563B36A6BA2D4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -583,7 +586,21 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Cookie\Cookies from Header Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9B0A58343632E6205677A1ED76A2749B</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Reset.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>false</is_Merge_VI>
+        <Position>
+          <Row>4</Row>
+          <Column>4</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>HTTP Utils\Request\Reset.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>4A825AE01B317B9FC82176DDCF69E86D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -842,7 +859,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Response\Get Status Text.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>36486064603F0B4BD10AF656D22F10BA</GUID>
+      <GUID>8E0F6117D3A4128BDCF076BE85ACACDE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -877,7 +894,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Request\Accept-Encodings.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3D62DDAE2526D6490619FA6C4F795D21</GUID>
+      <GUID>10D41D2EE965A1A93F5B1BF71A77E7CC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -982,7 +999,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Cookie\Get Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>68D305B856DE3394E834F8FDF5633514</GUID>
+      <GUID>DE284259A8CEA042EF58911B308BC43E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1045,7 +1062,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Content-Type Map.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A51CB9158DF5780A4DB20B8F5E8EBFAD</GUID>
+      <GUID>B9B47BB12351DE1270F19E6EC3ADF9C3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -1080,7 +1097,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\Request\First Byte Relative Seconds.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA477AD32EAC15D44BBA78F63A413FF6</GUID>
+      <GUID>E761855769F55A3F1AE0813F349C3E38</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1199,7 +1216,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>HTTP Utils\FormField\Original Name.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>11DA2A590DF5B578D1775640F707178F</GUID>
+      <GUID>8DACC3842903DFA44503C484F40E4333</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1318,7 +1335,7 @@ Encapsulates parsing and handling of HTTP Requests and Responses. Can be used wi
         <Path>Palettes\Cookie Class.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3BF6323C4EAD5F1004222A1AD02F7365</GUID>
+      <GUID>E9C12D64F0E56B147990BE5D42042AE7</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
