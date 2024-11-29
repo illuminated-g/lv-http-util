@@ -26,7 +26,6 @@
 			<Item Name="Test Multipart String.vi" Type="VI" URL="../Test/Test Multipart String.vi"/>
 			<Item Name="Test Request from String.vi" Type="VI" URL="../Test/Test Request from String.vi"/>
 			<Item Name="Test Request from TCP.vi" Type="VI" URL="../Test/Test Request from TCP.vi"/>
-			<Item Name="Test OAuth2.vi" Type="VI" URL="../Test/Test OAuth2.vi"/>
 		</Item>
 		<Item Name="Deps" Type="Folder">
 			<Item Name="Stream.lvlib" Type="Library" URL="/&lt;vilib&gt;/IlluminatedG/lv-stream/Stream.lvlib"/>
